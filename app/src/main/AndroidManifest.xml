@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.lorvent.way2freshers">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name="com.project.lorvent.way2freshers.WelcomeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.project.lorvent.way2freshers.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTop"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.project.lorvent.way2freshers.activities.SkillsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.project.lorvent.way2freshers.activities.LocationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.CategoryActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.QualificationActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.project.lorvent.way2freshers.activities.DetailsActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.QuesPaperActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.InterviewQuesActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.NetworkErrorActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.project.lorvent.way2freshers.activities.NationalizedBankActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.BankLoanDetailsActivity" />
+        <activity
+            android:name="com.project.lorvent.way2freshers.activities.PrivateBankActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.project.lorvent.way2freshers.activities.StateBankGroupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.SchlorshipDetailActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.QuesDetailsActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.ExamPaperActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.HelpActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.project.lorvent.way2freshers.activities.AboutUsActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.SplashActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.project.lorvent.way2freshers.activities.ListOfLocationJobActivity" />
+        <activity android:name="com.project.lorvent.way2freshers.activities.ListofJobsActivity"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="15be6f0ea1f37eeb5dd0fb9c6031d9d8799fe56c" />
+
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <service
+            android:name=".MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+            </service>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fb_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider346362652462005"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+    </application>
+
+</manifest>

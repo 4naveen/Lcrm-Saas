@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "258198690741",
+    "firebase_url": "https://way2freshers-af88c.firebaseio.com",
+    "project_id": "way2freshers-af88c",
+    "storage_bucket": "way2freshers-af88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258198690741:android:4bded48cefa618cb",
+        "android_client_info": {
+          "package_name": "com.project.lorvent.way2freshers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258198690741-l9uiujsl8da5bmi9eei01f60enon3576.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.lorvent.way2freshers",
+            "certificate_hash": "031d17144b9d6f89b22836964914accdd1cf8c87"
+          }
+        },
+        {
+          "client_id": "258198690741-rn036e4s6atpm77ptb2tq07s4hjq9vpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXocFU01TONTrKPsHz9ZHsVlQQdtdJH4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258198690741-rn036e4s6atpm77ptb2tq07s4hjq9vpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

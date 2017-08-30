@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- End current session if app sleeps for a period of time -->
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!--  The property id associated with this analytics tracker -->
+    <string name="ga_trackingId">UA-100890012-1</string>
+
+    <string name="ga_sampleFrequency">100.0</string>
+
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!--
+      See Project Structure -> Analytics -> Google Analytics -> Learn More
+      to learn more about configuring this file.
+    -->
+    <screenName name="com.project.lorvent.way2freshers.MainActivity">Main Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.SkillsActivity">Skill Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.LocationActivity">Location Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.CategoryActivity">Category Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.QualificationActivity">Qualification Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.DetailsActivity">Details Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.QuesPaperActivity">QuesPaper Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.InterviewQuesActivity">InterviewQues Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.NationalizedBankActivity">NationalizedBank Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.BankLoanDetailsActivity">BankLoanDetails Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.PrivateBankActivity">PrivateBank Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.StateBankGroupActivity">StateBankGroup Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.SchlorshipDetailActivity">SchlorshipActivity Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.QuesDetailsActivity">QuestionDetail Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.ExamPaperActivity">ExamPaper Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.HelpActivity">Help Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.ListOfLocationJobActivity">ListOfLocation Activity</screenName>
+    <screenName name="com.project.lorvent.way2freshers.ListofJobsActivity">ListOfJobs Activity</screenName>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@mipmap/ic_dashboard_white_24dp"
+            android:checked="true"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_card_travel_white_24dp"
+            android:title="Jobs" />
+
+        <item
+            android:id="@+id/categories"
+            android:icon="@mipmap/ic_gamepad_white_24dp"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/placement"
+            android:icon="@mipmap/ic_receipt_white_24dp"
+            android:title="Placement Papers" />
+        <item
+            android:id="@+id/loans"
+            android:icon="@mipmap/ic_attach_money_white_24dp"
+            android:title="Loans" />
+        <item
+            android:id="@+id/schlorship"
+            android:icon="@mipmap/ic_layers_white_24dp"
+            android:title="Scholarships" />
+        <item
+            android:id="@+id/ques"
+            android:icon="@mipmap/ic_question_answer_white_24dp"
+            android:title="Interview Ques." />
+        <item
+            android:id="@+id/education"
+            android:icon="@mipmap/ic_school_white_24dp"
+            android:title="Education" />
+        <item
+            android:id="@+id/exams"
+            android:icon="@mipmap/ic_assignment_white_24dp"
+            android:title="Competitive Exams" />
+    <!--    <item
+            android:id="@+id/like"
+            android:icon="@mipmap/ic_share_white_24dp"
+            android:title="Like us" />-->
+        <item
+            android:id="@+id/share"
+            android:icon="@mipmap/ic_share_white_24dp"
+            android:title="Share" />
+    </group>
+</menu>

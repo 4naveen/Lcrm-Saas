@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/cv"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="3i Infotech"
+                android:paddingLeft="10dp"
+                android:id="@+id/company_name"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No.of Papers:"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:id="@+id/no_of_ques"
+                    android:paddingStart="3dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:contentDescription="hfvgjfbk"
+            android:src="@drawable/ic_action_navigation_chevron_right" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

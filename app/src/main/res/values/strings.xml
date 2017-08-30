@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Way2Freshers</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_us">Way2Fresher.com-A very Perfect Jobsite in india which has simple mission to facilitate to find jobs with your matching desire,to prepare for varoius campus written exam and interviews. It also lets you to know about available Schlorships and bank Loans.Way2Fresher mobile application is a genuine effort to provide services in faster way</string>
+    <string name="version">Version:1.0</string>
+    <string name="network_error_msg">Please check your internet connectivity</string>
+    <string name="cancel">CANCEL</string>
+    <string name="retry">RETRY</string>
+    <string name="splash_msg">A Gateway for Success</string>
+    <string name="help">We are here to help you!</string>
+    <string name="help_heading">Please fill below information and submit.We will surely look into this and get back to you!</string>
+    <string name="help_heading1">Content Suggestions</string>
+    <string name="select">Select</string>
+    <string name="answer">Your Answer</string>
+    <string name="back">BACK</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="fb_app_id">346362652462005</string>
+
+</resources>
